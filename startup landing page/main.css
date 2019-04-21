@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+hr {
+    max-width: 65px;
+    border-width: 3px;
+    border-color: #F05F44;
+}
+
+.faded {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+header.startup {
+    background-position: center;
+    background-image: url(images/rucksack-magazine-1529071-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+header.starup hr {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+header.startup h1 {
+    font-size: 2rem;
+}
+
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Lora', serif;
+}
+
+.my-auto {
+    text-align: center;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn-primary {
+    background-color: #F05F44 !important;
+    border-color: #F05F44 !important;
+}
+
+.btn-primary:hover {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+.my-form {
+    display: inline-block;
+}
